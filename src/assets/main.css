@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root {
+  --primary: #01A7FD;
+  --black: #111;
+  --white: #FFF;
+  --gray: rgba(17, 17, 17, 0.48);
+  --gray-l: #F1F1F1;
+  --gray-m: #FAFAFA;
+}
+/*************** 
+   TYPOGRAPHY
+***************/
+
+/* 16 Paragraph 2 */
+body, input, button, a{
+  font-family: Montserrat, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+/* 16 Paragraph 2 Medium */
+legend, th {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+
+/* 13 Paragraph 3 */
+label, span {
+  font-size: 1.3rem;
+  line-height: normal;
+}
+
+/* 16 Paragraph 2 Bold */
+td, td span, div.child{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
